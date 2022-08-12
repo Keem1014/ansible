@@ -1,0 +1,4 @@
+- name: install apache on AL2
+  package:
+    name: httpd
+    state: latest

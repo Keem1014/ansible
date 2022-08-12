@@ -1,0 +1,8 @@
+---
+
+- name: installing apache
+  hosts: webservers
+  become: yes
+  roles:
+    - apache
+    - index-html
